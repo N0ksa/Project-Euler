@@ -28,8 +28,8 @@ int main()
 	unsigned int largestP = 0;
 	unsigned int product = 0;
 
-	for (int i = 999; i != 0; --i)
-		for (int j = 999; j != 0; --j)
+	for (int i = 999; i != 100; --i)
+		for (int j = 999; j != 100; --j)
 		{
 			if (isPalindrome (i * j))
 			{
